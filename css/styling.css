@@ -1,0 +1,199 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+      }
+
+  .jumbotron {
+    font-size: 20px;
+    padding: 18px;
+    background-image: linear-gradient(#5D5CAD,#000000) ;
+    text-align: center;
+    color: white;
+}
+header .navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    padding-block: 1rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    z-index: 9999; 
+  }
+
+nav ul{
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+nav li {
+    list-style-type: none;
+    position: relative;
+  }
+
+nav {
+    background-color: #5D5CAD;
+    padding: 5px;
+    position: sticky;
+    display: flex;
+    align-items:center ;
+    justify-content:space-between ;
+    padding: 10px 10px 10px 20px;
+    top: 0;}
+    nav a {
+        color: white;
+        padding: 10px 15px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        transition: 300ms;
+        position: relative;
+    }
+    .nav-list ul li:hover a {
+        background-color: #000000; opacity: 50%;
+        color: violet;}
+
+        .nav-list ul li:active a {
+            padding:15px 20px;
+            background-color: black; opacity: 100%;
+        }
+    .logo{
+        width: 70px; height: auto;
+        border-radius: 999px;
+        display: flex;
+    }
+
+    main{padding: 10px 30px 120px 30px;
+        display: flex;
+        flex-direction: row;
+        }
+    .fotomama{
+        width: 200px;height: auto;
+    }
+.card{
+    box-shadow: 0px 20px 25px 0px #000, 
+            0 40px 30px 0px #5D5CAD,
+            0 99px 5px 0px #fff;
+    border-radius: 5px;
+    padding: 40px;
+    line-height: 30px;
+    margin-top: 60px;
+}
+    #abouther {
+display: flex;
+font-size: 16px;
+gap: 20px;
+justify-content: center;
+text-align: justify;
+word-spacing: 2px; 
+    }
+    #birthdayletter{
+        font-size: 16px;
+gap: 20px;
+justify-content: center;
+text-align: justify;
+word-spacing: 2px;
+    }
+    #birthdayletter{
+        font-size: 16px;
+gap: 20px;
+justify-content: center;
+text-align: justify;
+word-spacing: 2px;
+    }
+    h2{
+        font-size: 36px;
+        padding: 0px 0px 20px 0px;
+    }
+    .ucapan{
+        width: 100%;
+    max-height: 850px;
+    object-fit: cover;
+    object-position: center;
+    }
+    aside {
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }    
+    .content {
+        padding: 0px, 30px, 30px, 30px;
+            }
+        main{
+            display: flex;
+            gap: 50px;
+        }
+        .kue{
+            width: 300px;
+        }
+        
+    .hbd{
+        display: flex;
+        flex-direction: column;
+        margin-top: 55px;
+        margin-bottom: 0%;
+        align-items: center;
+        padding: 20px;
+        box-shadow: 0px 15px 25px 0px #000, 
+            0 20px 30px 0px #5D5CAD,
+            0 99px 5px 0px #fff;
+    border-radius: 5px;
+    padding: 40px;
+    line-height: 30px;
+    }
+    .kue{
+        margin-top: 10px;
+    }
+    .bio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+        .ultah{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .table{
+        justify-content: space-between;
+        text-align: left; 
+        }
+        tbody{
+            gap: 20px;
+        }
+        th{
+            padding-right: 20px;
+        }
+        footer{
+            padding: 20px;
+            color:white;
+            background-image:linear-gradient(#5D5CAD,#000000);
+            text-align: center;
+            font-weight: bold;
+        }
+        @media (max-width: 1024px) {
+          
+            main  {
+                flex-direction: column-reverse;
+                }
+                nav {
+                    display:none;
+                            }
+    #abouther{
+        flex-direction: column;
+    }
+    .fotomama{
+        width: 100%;
+    }
+                        }
